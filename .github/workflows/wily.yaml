@@ -29,8 +29,8 @@ jobs:
       - name: Build cache and diff
         id: wily
         run: |
-          wily build PGS.api/
-          DIFF=$(wily diff PGS.api/ --no-detail -r origin/${{ github.event.pull_request.base.ref }})
+          wily build PGS/
+          DIFF=$(wily diff PGS/ --no-detail -r origin/${{ github.event.pull_request.base.ref }})
           echo "$DIFF"
           # Build multine output
           DIFF="${DIFF//'%'/'%25'}"
