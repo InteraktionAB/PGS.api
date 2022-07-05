@@ -1,3 +1,6 @@
 [submodule "punctuate"]
 	path = punctuate
 	url = https://www.github.com/InteraktionAB/punctuate
+[submodule "grammar"]
+	path = grammar
+	url = https://www.github.com/InteraktionAB/grammar
