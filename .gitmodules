@@ -4,3 +4,6 @@
 [submodule "grammar"]
 	path = grammar
 	url = https://www.github.com/InteraktionAB/grammar
+[submodule "sentiments"]
+	path = sentiments
+	url = https://www.github.com/InteraktionAB/sentiments.git
