@@ -14,6 +14,8 @@ services:
   sentiment-service:
     build: ./sentiments
     command: uvicorn sentiments.main:app --reload --host 0.0.0.0 --port 8000
+    ports:
+      - 8003:8000
   nginx:
     image: nginx:latest
     ports:
