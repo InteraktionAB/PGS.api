@@ -13,7 +13,7 @@ services:
       - 8002:8000
   sentiment-service:
     build: ./sentiments
-    command: uvicorn sentiments.main:app --reload --host 0.0.0.0 --port 8000
+    command: uvicorn sentiments.main:app --TAG sentiments --VERSION v1 --ROUTE run --KEY result --reload --host 0.0.0.0 --port 8000
     ports:
       - 8003:8000
   nginx:
