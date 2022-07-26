@@ -7,3 +7,6 @@
 [submodule "sentiments"]
 	path = sentiments
 	url = https://www.github.com/InteraktionAB/sentiments.git
+[submodule "splitter"]
+	path = splitter
+	url = https://www.github.com/InteraktionAB/splitter
