@@ -18,7 +18,7 @@ services:
       - 8003:8000
   splitter-service:
     build: ./splitter
-    command: uvicorn sentiments.main:app --reload --host 0.0.0.0 --port 8000
+    command: uvicorn splitter.main:app --reload --host 0.0.0.0 --port 8000
     ports:
       - 8004:8000
   nginx:
@@ -31,3 +31,4 @@ services:
       - punctuate-service
       - grammar-service
       - sentiment-service
+      - splitter-service
