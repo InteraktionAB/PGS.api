@@ -10,3 +10,6 @@
 [submodule "splitter"]
 	path = splitter
 	url = https://www.github.com/InteraktionAB/splitter
+[submodule "selector"]
+	path = selector
+	url = https://www.github.com/InteraktionAB/selector.git
